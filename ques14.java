@@ -27,6 +27,7 @@ public class ques14 {
 
         jt = new JTree(a);
         jf.add(jt);
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String args[])
     {
